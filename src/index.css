@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+}
+
+.container {
+    margin: auto;
+    padding: 15px;
+}
+
+/* Very Smoll */
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
